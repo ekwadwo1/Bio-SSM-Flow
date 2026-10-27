@@ -13,7 +13,7 @@ import os, sys, time, importlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 FOLDS = [1, 2, 3, 4]
-BASE_OUT = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/runs"
+BASE_OUT = "/.../Bio-SSM-Flow/runs"
 
 def run_fold(fold):
     out = f"{BASE_OUT}/forecast_fold{fold}"

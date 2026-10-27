@@ -29,8 +29,8 @@ import calibration as CAL
 import metrics as M
 
 CFG = dict(
-    cache="/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/latent_cache_lumiere",
-    vqgan="/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/u101prjt/data/UR_SSM_DIFF_DATASETS/UR_SSM_Diff_Outputs/checkpoints/vqgan_r4/best_vqgan.pt",
+    cache="/.../Bio-SSM-Flow/latent_cache_lumiere",
+    vqgan="/.../checkpoints/vqgan_r4/best_vqgan.pt",
     device="cuda:0", fold=0, k_folds=5, batch=16, epochs=300,
     lr=2e-4, warmup=500, wd=1e-4, var_warmup=2000, ema=0.999, clip=1.0,
     T_diffusion=1000, ddim_steps=50, gen_R=8, val_every=1000, ckpt_every=1000,

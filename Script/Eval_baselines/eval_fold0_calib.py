@@ -23,9 +23,9 @@ from vqgan3d import VQGAN3D
 import calibration as CAL
 import metrics as M
 
-CACHE = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/latent_cache_lumiere"
-RUN   = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/runs/forecast_fold0"
-VQGAN = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/u101prjt/data/UR_SSM_DIFF_DATASETS/UR_SSM_Diff_Outputs/checkpoints/vqgan_r4/best_vqgan.pt"
+CACHE = "/.../Bio-SSM-Flow/latent_cache_lumiere"
+RUN   = "/.../Bio-SSM-Flow/runs/forecast_fold0"
+VQGAN = "/.../checkpoints/vqgan_r4/best_vqgan.pt"
 DEVICE = "cuda:0"; FOLD, K = 0, 5; R = 32; STEPS = 20; N_IMG = 8
 
 

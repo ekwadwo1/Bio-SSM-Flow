@@ -34,10 +34,10 @@ from seg_head_img import ImgSegUNet
 import calibration as CAL
 import metrics as M
 
-CACHE  = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/latent_cache_lumiere"
-RUN    = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/runs/forecast_fold0/best.pt"
-VQGAN  = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/u101prjt/data/UR_SSM_DIFF_DATASETS/UR_SSM_Diff_Outputs/checkpoints/vqgan_r4/best_vqgan.pt"
-SEG    = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/runs/seghead_img_fold0/imgseg_best.pt"
+CACHE  = "/.../Bio-SSM-Flow/latent_cache_lumiere"
+RUN    = "/.../Bio-SSM-Flow/runs/forecast_fold0/best.pt"
+VQGAN  = "/.../checkpoints/vqgan_r4/best_vqgan.pt"
+SEG    = "/.../Bio-SSM-Flow/runs/seghead_img_fold0/imgseg_best.pt"
 DEVICE = "cuda:0"; FOLD, K = 0, 5
 R = 32; GEN_STEPS = 20; N_VAL = 60; TUMOR_CLASSES = (1, 3); DILATE = 3
 

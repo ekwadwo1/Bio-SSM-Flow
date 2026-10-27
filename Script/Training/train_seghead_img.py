@@ -20,9 +20,9 @@ from seg_head import DiceCELoss
 from vqgan3d import VQGAN3D
 import metrics as M
 
-CACHE  = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/latent_cache_lumiere"
-VQGAN  = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/u101prjt/data/UR_SSM_DIFF_DATASETS/UR_SSM_Diff_Outputs/checkpoints/vqgan_r4/best_vqgan.pt"
-OUT    = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/runs/seghead_img_fold0"
+CACHE  = "/.../Bio-SSM-Flow/latent_cache_lumiere"
+VQGAN  = "/.../checkpoints/vqgan_r4/best_vqgan.pt"
+OUT    = "/.../Bio-SSM-Flow/runs/seghead_img_fold0"
 DEVICE = "cuda:0"
 EPOCHS = 60; BATCH = 4; LR = 3e-4; FOLD, K = 0, 5
 

@@ -48,8 +48,7 @@ from vqgan3d import VQGAN3D
 from seg_head_img import ImgSegUNet
 
 CACHE = os.path.join(HERE, "latent_cache_lumiere")
-VQGAN = ("/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/u101prjt/data/"
-         "UR_SSM_DIFF_DATASETS/UR_SSM_Diff_Outputs/checkpoints/vqgan_r4/best_vqgan.pt")
+VQGAN = ("/.../checkpoints/vqgan_r4/best_vqgan.pt")
 SEG = os.path.join(HERE, "runs", "seghead_img_fold0", "imgseg_best.pt")
 MANIFEST = os.path.join(HERE, "runs", "FROZEN_MODELS.json")
 DEV = "cuda:0"

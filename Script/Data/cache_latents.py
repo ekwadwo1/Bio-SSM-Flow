@@ -27,9 +27,9 @@ from transforms import preprocess
 from vqgan3d import VQGAN3D, compute_psnr           # Paper-1 code, reused as-is
 
 # ── EDIT ─────────────────────────────────────────────────────────────
-LUMIERE_ROOT = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/LUMIERE_Imaging/Imaging"
-VQGAN_CKPT   = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/u101prjt/data/UR_SSM_DIFF_DATASETS/UR_SSM_Diff_Outputs/checkpoints/vqgan_r4/best_vqgan.pt"     # <-- give me this path
-CACHE_DIR    = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/latent_cache_lumiere"
+LUMIERE_ROOT = "/.../LUMIERE_Imaging/Imaging"
+VQGAN_CKPT   = "/.../checkpoints/vqgan_r4/best_vqgan.pt"     # <-- give me this path
+CACHE_DIR    = "/.../Bio-SSM-Flow/latent_cache_lumiere"
 DEVICE       = "cuda:0"
 PSNR_GATE    = 25.0                                   # below this -> VQGAN does not transfer; retrain
 N_GATE       = 6                                      # cases for the reconstruction gate

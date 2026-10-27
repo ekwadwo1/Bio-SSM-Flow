@@ -36,8 +36,8 @@ import calibration as CAL
 
 # ─────────────────────────── CONFIG ───────────────────────────
 CFG = dict(
-    cache   = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/Bio-SSM-Flow/latent_cache_lumiere",
-    vqgan   = "/media/image522/8TPan1/image522/Ernest_Tri-Mamba-Net/NBPY-FILES/u101prjt/data/UR_SSM_DIFF_DATASETS/UR_SSM_Diff_Outputs/checkpoints/vqgan_r4/best_vqgan.pt",
+    cache   = "/.../Bio-SSM-Flow/latent_cache_lumiere",
+    vqgan   = "/.../checkpoints/vqgan_r4/best_vqgan.pt",
     out_dir = "...forecast_fold3",
     device  = "cuda:0",             # with CUDA_VISIBLE_DEVICES=1 this maps to physical GPU 1
     fold    = 3, k_folds = 5,
