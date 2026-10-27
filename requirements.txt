@@ -1,0 +1,32 @@
+# Bio-SSM-Flow: Python dependencies
+# Tested with Python 3.10 and CUDA 12 on Ubuntu (NVIDIA RTX 5880 Ada, 48 GB).
+#
+# Install PyTorch first, matching your CUDA version (see https://pytorch.org), e.g.
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+# then the remaining packages:
+#   pip install -r requirements.txt
+# mamba-ssm and causal-conv1d compile CUDA kernels; they need a CUDA toolkit matching PyTorch.
+
+# --- deep learning ---
+torch==2.5.1
+mamba-ssm>=2.2
+causal-conv1d>=1.4
+einops>=0.7
+monai>=1.3
+
+# --- medical imaging I/O and registration ---
+nibabel>=5.0
+SimpleITK>=2.3
+antspyx>=0.4
+
+# --- numerics and statistics ---
+numpy>=1.24
+scipy>=1.10
+scikit-image>=0.21
+pandas>=2.0
+openpyxl>=3.1
+
+# --- figures and utilities ---
+matplotlib>=3.7
+pillow>=10.0
+tqdm>=4.65
