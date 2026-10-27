@@ -9,7 +9,7 @@
 Bio-SSM-Flow forecasts how a patient's next follow-up MRI is likely to appear after glioma treatment, and returns a calibrated, voxel-wise estimate of the forecast's uncertainty. Its purpose is to support the interpretation of follow-up imaging, for example in response assessment, by providing a patient-specific expectation; it does not perform response assessment itself.
 
 <p align="center">
-  <img src="figures/fig_overview.png" width="100%" alt="Overview of Bio-SSM-Flow">
+  <img src="assets/fig_overview.png" width="100%" alt="Overview of Bio-SSM-Flow">
 </p>
 
 The method has three components:
