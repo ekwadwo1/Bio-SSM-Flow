@@ -70,7 +70,7 @@ The evaluation script refuses to run on external data without the freeze commit 
 | `ablate_unified.py` | Ablations of the state-space branch and of the interval conditioning (Table III) |
 | `ingest_alptdg.py`, `ingest_mu.py` | External cohorts: eligibility, label harmonization, registration, quality control |
 | `eval_external.py` | Frozen external evaluation and its pre-specified statistics (Table IV) |
-| `plot_fig_intro.py`, `plot_fig1_overview.py`, `plot_fig2_calibration.py`, `plot_fig3_skill.py`, `plot_fig4_qualitative.py` | Figures, generated from saved results |
+| `plot_fig2_calibration.py`, `plot_fig3_skill.py`, `plot_fig4_qualitative.py` | Figures, generated from saved results |
 | `EXTERNAL_VALIDATION_PLAN_*.md` | Pre-specified analysis plan and its drafts |
 
 ## Installation
