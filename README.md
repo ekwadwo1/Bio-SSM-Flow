@@ -156,7 +156,7 @@ python plot_fig4_qualitative.py
 
 ## Pretrained models
 
-The five frozen fold models used in the paper are attached to the [GitHub release](https://github.com/ekwadwo1/Bio-SSM-Flow/releases). Place them at `runs/forecast_fold{0..4}/best.pt`; their SHA-256 hashes are listed in `runs/FROZEN_MODELS.json` and are verified automatically by the evaluation scripts.
+The five frozen fold models used in the paper are attached to the [GitHub release](https://github.com/ekwadwo1/Bio-SSM-Flow/releases). 
 
 
 ## Acknowledgments
