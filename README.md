@@ -13,7 +13,7 @@ School of Computer Science and Communication Engineering, Jiangsu University
 Bio-SSM-Flow forecasts how a patient's next follow-up MRI is likely to appear after glioma treatment, and returns a calibrated, voxel-wise estimate of the forecast's uncertainty. Its purpose is to support the interpretation of follow-up imaging, for example in response assessment, by providing a patient-specific expectation; it does not perform response assessment itself.
 
 <p align="center">
-  <img src="figures/fig_overview.png" width="100%" alt="Overview of Bio-SSM-Flow">
+  <img src="assets/fig_overview.pdf" width="100%" alt="Overview of Bio-SSM-Flow">
 </p>
 
 The method has three components:
@@ -162,28 +162,7 @@ python plot_fig4_qualitative.py
 
 The five frozen fold models used in the paper are attached to the [GitHub release](https://github.com/ekwadwo1/Bio-SSM-Flow/releases). Place them at `runs/forecast_fold{0..4}/best.pt`; their SHA-256 hashes are listed in `runs/FROZEN_MODELS.json` and are verified automatically by the evaluation scripts.
 
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{asimeng2026biossmflow,
-  author  = {Asimeng, Ernest and Chen, Jun and Mensah, Godbless and Han, Kai and Liu, Zhe},
-  title   = {Calibrated Probabilistic Forecasting of Post-Treatment Glioma {MRI} with State-Space Flow Matching},
-  journal = {IEEE Transactions on Medical Imaging},
-  year    = {2026},
-  note    = {Under review}
-}
-```
-
-## License
-
-This project is released under the MIT License; see [`LICENSE`](LICENSE).
 
 ## Acknowledgments
 
-We thank the investigators who collected and publicly shared the LUMIERE, UCSF-ALPTDG, and MU-Glioma-Post datasets, and The Cancer Imaging Archive for hosting MU-Glioma-Post. This work was supported by the National Natural Science Foundation of China (62276116 and 62501253).
-
-## Contact
-
-For questions, please open an issue or contact Ernest Asimeng (5103221314@stmail.ujs.edu.cn). Corresponding author: Zhe Liu (1000004088@ujs.edu.cn).
+We thank the investigators who collected and publicly shared the LUMIERE, UCSF-ALPTDG, and MU-Glioma-Post datasets, and The Cancer Imaging Archive for hosting MU-Glioma-Post. 
